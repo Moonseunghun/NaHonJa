@@ -1,25 +1,14 @@
+import 'package:dataloop/screen/home_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(
+    MaterialApp(
+      home: HomeScreen(),
+    )
+  );
 }
 
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text('Hello, Flutter!'),
-        ),
-        body: Center(
-          child: Text('Hello, Flutter!'),
-        ),
-      ),
-    );
-  }
-}
 
 
 
